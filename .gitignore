@@ -33,3 +33,8 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+
+# Framgia/sun ignore
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
