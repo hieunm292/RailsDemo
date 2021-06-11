@@ -1,7 +1,9 @@
+<% provide(:title ,"RailsHieu") %>
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsDemo</title>
+    <title><%= yield(:title)%> | Ruby on Rails Tutorial Sample App</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
