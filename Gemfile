@@ -3,10 +3,14 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
 
+gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "bootstrap-sass", "3.4.1"
+gem "config", "~> 3.1"
 gem "jbuilder", "~> 2.7"
 gem "puma", "~> 3.11"
 gem "rails", "~> 6.0.0"
+gem "rails-i18n"
 gem "sass-rails", "~> 5"
 gem "sqlite3", "~> 1.4"
 gem "turbolinks", "~> 5"
@@ -30,3 +34,10 @@ group :test do
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# sun config
+group :development, :test do
+  gem "rubocop", "~> 0.74.0", require: false
+  gem "rubocop-checkstyle_formatter", require: false
+  gem "rubocop-rails", "~> 2.3.2", require: false
+end
