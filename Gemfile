@@ -13,6 +13,7 @@ gem "rails", "~> 6.0.0"
 gem "rails-i18n"
 gem "sass-rails", "~> 5"
 gem "sqlite3", "~> 1.4"
+gem "toastr-rails"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
 

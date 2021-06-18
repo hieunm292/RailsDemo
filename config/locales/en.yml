@@ -1,5 +1,4 @@
 en:
-
   layouts:
     application:
       title_global: "Ruby on Rails Tutorial Sample App"
@@ -14,13 +13,37 @@ en:
       news: "News"
       copyright: "The %{product} by %{creator}"
       product: "Ruby on Rails"
-      creator: "Michael Hartl"
+      creator: "Nguyễn Minh Hiếu"
+
+  sessions:
+    new:
+      title: "Log in"
+      log_in: "Log in"
+      email: "Email"
+      password: "Password"
+      log_in_fail: "Email or password is correct!"
+      new_user: "New user? %{link_sign_up}"
+    create:
+      invalid_email_password_combination: "Invalid email/password combination"
+
+  shared:
+    errors_message:
+      information_error: "The form containers %{count_error} error."
 
   users:
     new:
       name_page: "Sign up"
       title: "Sign up"
       description: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Password confirmation"
+      btn_create_user: "Create my account"
+    create:
+      create_user_success: "Welcome to the Sample App!"
+    show:
+      user_not_found: "User not found!"
 
   static_pages:
     home:
