@@ -13,6 +13,8 @@ gem "webpacker", "~> 4.0"
 
 gem 'bcrypt', '3.1.13'
 
+gem "toastr-rails"
+
 
 gem 'bootstrap-sass', '3.4.1'
 
