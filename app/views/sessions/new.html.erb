@@ -1,6 +1,5 @@
-<% provide :title, t("log_in") %>
-
-<h1>Log in</h1>
+<% provide(:title, 'Log In') %>
+<h1>Log In</h1>
 
 <div class="row">
 
@@ -16,6 +15,12 @@
 
 			 <%= f.password_field :password, class: "form-control" %>
 
+			 <%= f.label :remember_me, class: "checkbox inline" do %>
+				 <%= f.check_box :remember_me %>
+				 <span>Remember me ? </span>
+			 <% end %>
+
+
 			 <%= f.submit "Log in", class: "btn btn-primary" %>
 
 		 <% end %>
@@ -25,4 +30,3 @@
 	 </div>
 
 </div>
-
