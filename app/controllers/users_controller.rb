@@ -33,13 +33,11 @@ class UsersController < ApplicationController
       
       @user.send_activation_email
       
-      #log in new users automatic
-      #UserMailer.account_activation(@user).deliver_now
       flash[:info] = "Please check your email to activate your account."
       redirect_to root_url
 
     else
-      render 'new'
+      render :new
     end
   end
 

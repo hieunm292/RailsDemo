@@ -17,6 +17,7 @@ User.create!(name: "Nguyen Minh Hieu",
 			 activated: true,
              activated_at: Time.zone.now)
 
+
 # Generate a bunch of additional users.
 99.times do |n|
 	name = Faker::Name.name
