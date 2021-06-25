@@ -34,6 +34,16 @@
 yarn-debug.log*
 .yarn-integrity
 
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+.rvmrc
 
 # Framgia/sun ignore
 .framgia-ci-reports/
