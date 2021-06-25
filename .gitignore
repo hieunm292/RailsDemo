@@ -38,3 +38,8 @@ yarn-debug.log*
 # Framgia/sun ignore
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
+
+config/database.yml
+.browserslistrc
+config/credentials.yml.enc
+test/*
