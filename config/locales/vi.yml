@@ -1,0 +1,56 @@
+vi:
+  layouts:
+    application:
+      title_global: "Ứng dụng mẫu Ruby on Rails"
+      title: "RailsDemo"
+    header:
+      home: "Trang chủ"
+      help: "Hỗ trợ"
+      login: "Đăng nhập"
+    footer:
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      copyright: "%{product} là một sản phẩm của %{creator}"
+      product: "Hướng dẫn Ruby on Rails"
+      creator: "Michael Hartl"
+
+  users:
+    new:
+      name_page: "Trang chủ"
+      title: "Đăng ký"
+      description: "Đây sẽ là trang đăng ký cho người dùng mới."
+
+  static_pages:
+    home:
+      name_page: "Trang chủ"
+      title: "Ứng dụng mẫu"
+      greeting: "Chào mừng đến với %{title}"
+      description: "Đây là trang chủ %{href} của ứng dụng mẫu"
+      title_link: "Hướng dẫn Ruby on Rails"
+      sign_up_now: "Đăng ký ngay!"
+
+    contact:
+      name_page: "Liên hệ"
+      title: "Liên hệ"
+      description: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      title_link: "trang liên hệ"
+
+    help:
+      name_page: "Trợ giúp"
+      title: "Trợ giúp"
+      description: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link_help}
+        . Để nhận trợ giúp về ứng dụng mẫu này, hãy xem %{link_tutorial}"
+      title_link_help: "Trang trợ giúp hướng dẫn về Rails"
+      title_link_book_html: "<em>Hướng dẫn về Ruby on Rails</em>"
+
+    about:
+      name_page: "Về chúng tôi"
+      title: "Về chúng tôi"
+      description: "Các %{title_link_tutorial}, lả một phần hướng dẫn của
+        %{title_link_learn_enough}, gồm %{title_link_book} và
+        %{title_link_screencast} hướng dẫn phát triển web với
+        %{title_link_rubyonrails}. Đây là ứng dụng mẫu cho hướng dẫn."
+      title_link_tutorial_html: "<em>Hướng dẫn Ruby on Rails</em>"
+      title_link_book: "sách"
+      title_link_screencast: "những video chụp màn hình "
