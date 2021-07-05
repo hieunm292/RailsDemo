@@ -20,6 +20,28 @@ vi:
       product: "Hướng dẫn Ruby on Rails"
       creator: "Nguyễn Minh Hiếu"
 
+  password_resets:
+    edit:
+      title: "Đặt lại mật khẩu"
+      reset_password: "Đặt lại mật khẩu"
+      password: "Password"
+      confirm_password: "Password Confirmation"
+      update_password: "Cập nhật"
+    new:
+      title: "Quên mật khẩu"
+      forget_password: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    create:
+      email_send_success: "Gửi email xác nhận thành công !"
+      email_send_fail: "Gửi email xác nhận thất bại !"
+    update:
+      error_password_empty: "Mật khẩu không được để trống !"
+      reset_password_success: "Chúc mừng, đặt lại mật khẩu thành công !"
+      password_expired: "Đặt lại mật khẩu đã hết hạn !"
+      user_not_found: "Người dùng không tìm thấy ."
+      reset_password_error: "Lỗi, mật khẩu đã được đặt lại trước đó"
+
   sessions:
     new:
       title: "Đăng nhập"
@@ -27,6 +49,7 @@ vi:
       sign_up: "Đăng ký"
       edit: "Chỉnh sửa"
       email: "Email"
+      forget_password: "Quên mật khẩu ?"
       password: "Mật khẩu"
       new_user: "Bạn là người mới? %{link_sign_up}"
       log_in_fail: "Email or password is correct!"
@@ -84,6 +107,12 @@ vi:
       desc: "Chào mừng bạn đến với Sample App!
         Click vào liên kết bên dưới để kích hoạt tài khoản của bạn"
       title_link: "Kích hoạt tài khoản"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      instruc: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới :"
+      desc: "Liên kết này sẽ hết hạn sau hai giờ,
+        nếu bạn không yêu cầu đặt lại mật khẩu của mình,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
 
   static_pages:
     home:
