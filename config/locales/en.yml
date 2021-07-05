@@ -32,11 +32,18 @@ en:
       log_in_fail: "Email or password is correct!"
       remember_me: "Remember me ?"
     create:
+      account_not_activated: "Account not activated.
+        Check your email for the activation link."
       invalid_email_password_combination: "Invalid email/password combination"
 
   shared:
     errors_message:
       information_error: "The form containers %{count_error} error."
+
+  account_activations:
+    edit:
+      active_account_success: "Account activated !"
+      active_account_fail: "Invalid activation link !"
 
   users:
     form:
@@ -55,8 +62,11 @@ en:
       btn_create_user: "Create my account"
       login_path_des: "Already have account ? %{link_log_in}"
     edit:
+      title: "Edit"
       btn_edit_user: "Edit Account"
     create:
+      notify_email_active_account: "Please check your email
+        to activate your account ."
       create_user_success: "Welcome to the Sample App!"
     show:
       user_not_found: "User not found!"
@@ -65,6 +75,15 @@ en:
     destroy:
       destroy_success: "Destroy_success !"
       destroy_fail: "Destroy_fail !"
+
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      name_app: "Simple App"
+      greeting: "Hi "
+      desc: " Welcome to the Sample App! Click on the link below to
+        activate your account: "
+      title_link: "Activate"
 
   static_pages:
     home:
@@ -78,8 +97,7 @@ en:
     contact:
       name_page: "Contact"
       title: "Contact"
-      description: "Contact the Ruby on Rails Tutorial about the sample app at
-        the"
+      description: "Contact the Ruby on Rails Tutorial about the sample app at the"
       title_link: "contact page"
 
     help:
