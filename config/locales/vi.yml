@@ -1,4 +1,8 @@
 vi:
+  javascript:
+    micropost_image:
+      micropost_image_max_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+
   layouts:
     application:
       title_global: "Ứng dụng mẫu Ruby on Rails"
@@ -19,6 +23,17 @@ vi:
       copyright: "%{product} là một sản phẩm của %{creator}"
       product: "Hướng dẫn Ruby on Rails"
       creator: "Nguyễn Minh Hiếu"
+
+  microposts:
+    micropost:
+      delete: "Xóa"
+      confirm_delete: "Bạn có muốn xóa bài viết này ?"
+    create:
+      micropost_create_success: "Chúc mừng bạn, bài viết đã tạo nên thành công!"
+      create_micropost_failed: "Xin lỗi, bài viết được tạo không thành công!"
+    destroy:
+      micropost_delete_success: "Xin chúc mừng,bài viết đã xóa thành công !"
+      micropost_delete_fail: "Xin lỗi, bài viết đã xóa không thành công!"
 
   password_resets:
     edit:
@@ -62,6 +77,12 @@ vi:
   shared:
     errors_message:
       information_error: "Mục nhập thông tin có %{count_error} lỗi."
+    user_info:
+      my_profile: "Xem trang cá nhân của tôi"
+      microposts: " bài viết"
+    micropost_form:
+      create_micropost: "Soạn 1 bài viết mới ..."
+      post: "Đăng"
 
   account_activations:
     edit:
