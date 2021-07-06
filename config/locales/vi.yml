@@ -7,6 +7,11 @@ vi:
       home: "Trang chủ"
       help: "Hỗ trợ"
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
     footer:
       about: "Về chúng tôi"
       contact: "Liên hệ"
@@ -14,6 +19,24 @@ vi:
       copyright: "%{product} là một sản phẩm của %{creator}"
       product: "Hướng dẫn Ruby on Rails"
       creator: "Nguyễn Minh Hiếu"
+
+  sessions:
+    new:
+      title: "Đăng nhập"
+      log_in: "Đăng nhập"
+      sign_up: "Đăng ký"
+      edit: "Chỉnh sửa"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Bạn là người mới? %{link_sign_up}"
+      log_in_fail: "Email or password is correct!"
+      remember_me: "Nhớ tôi ?"
+    create:
+      invalid_email_password_combination: "Email, mật khẩu không hợp lệ"
+
+  shared:
+    errors_message:
+      information_error: "Mục nhập thông tin có %{count_error} lỗi."
 
   users:
     new:
@@ -25,6 +48,14 @@ vi:
       password: "Mật khẩu"
       password_confirm: "Nhập lại mật khẩu"
       btn_create_user: "Tạo tài khoản"
+      login_path_des: "Bạn đã có mật khẩu ? %{link_log_in}"
+    edit:
+      title: "Chỉnh sửa"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirm: "Nhập lại mật khẩu"
+      btn_edit_user: "Chỉnh sửa"
     create:
       create_user_success: "Chào mừng đến với ứng dụng"
     show:
