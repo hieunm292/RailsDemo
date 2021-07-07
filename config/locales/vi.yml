@@ -39,27 +39,33 @@ vi:
       information_error: "Mục nhập thông tin có %{count_error} lỗi."
 
   users:
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirm: "Nhập lại mật khẩu"
+    index:
+      title: "Người dùng"
+    user:
+      confirm_delete: "Bạn có muốn xóa người dùng này không ?"
     new:
       name_page: "Trang chủ"
       title: "Đăng ký"
       description: "Đây sẽ là trang đăng ký cho người dùng mới."
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      password_confirm: "Nhập lại mật khẩu"
       btn_create_user: "Tạo tài khoản"
       login_path_des: "Bạn đã có mật khẩu ? %{link_log_in}"
     edit:
       title: "Chỉnh sửa"
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      password_confirm: "Nhập lại mật khẩu"
       btn_edit_user: "Chỉnh sửa"
     create:
       create_user_success: "Chào mừng đến với ứng dụng"
     show:
       user_not_found: "Người dùng không tồn tại!"
+    update:
+      update_success: "Cập nhật thông tin thành công !"
+    destroy:
+      destroy_success: "Xóa thành công !"
+      destroy_fail: "Xóa thất bại !"
 
   static_pages:
     home:

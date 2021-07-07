@@ -39,27 +39,32 @@ en:
       information_error: "The form containers %{count_error} error."
 
   users:
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Password confirmation"
+    index:
+      title: "Users"
+    user:
+      confirm_delete: "Do you want to delete this user ?"
     new:
       name_page: "Sign up"
       title: "Sign up"
       description: "This will be a signup page for new users."
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      password_confirm: "Password confirmation"
       btn_create_user: "Create my account"
       login_path_des: "Already have account ? %{link_log_in}"
     edit:
-      title: "Edit"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      password_confirm: "Password confirmation"
       btn_edit_user: "Edit Account"
     create:
       create_user_success: "Welcome to the Sample App!"
     show:
       user_not_found: "User not found!"
+    update:
+      update_success: "Update success !"
+    destroy:
+      destroy_success: "Destroy_success !"
+      destroy_fail: "Destroy_fail !"
 
   static_pages:
     home:
