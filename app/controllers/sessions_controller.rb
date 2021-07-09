@@ -5,9 +5,8 @@ class SessionsController < ApplicationController
     @user = User.find_by email: params[:session][:email].downcase
     if @user&.authenticate(params[:session][:password])
       authenticate @user
-
     else
-      flash.now[:danger] = t "invalid_email_password_combination"
+      flash.now[:danger] = t ".invalid_email_password_combination"
       render :new
     end
   end
@@ -18,8 +17,13 @@ class SessionsController < ApplicationController
   end
 
   def authenticate user
-    log_in user
-    params[:session][:remember_me].eql?("1") ? remember(user) : forget(user)
-    redirect_back_or user
+    if user.activated
+      log_in user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+      redirect_back_or root_url
+    else
+      flash[:warning] = t ".account_not_activated"
+      redirect_to root_url
+    end
   end
 end

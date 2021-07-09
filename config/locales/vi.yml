@@ -32,11 +32,18 @@ vi:
       log_in_fail: "Email or password is correct!"
       remember_me: "Nhớ tôi ?"
     create:
+      account_not_activated: "Tài khoản chưa được kích hoạt.
+        Kiểm tra email của bạn để biết liên kết kích hoạt."
       invalid_email_password_combination: "Email, mật khẩu không hợp lệ"
 
   shared:
     errors_message:
       information_error: "Mục nhập thông tin có %{count_error} lỗi."
+
+  account_activations:
+    edit:
+      active_account_success: "Đã kích hoạt tài khoản !"
+      active_account_fail: "Liên kết kích hoạt không hợp lệ !"
 
   users:
     form:
@@ -58,6 +65,8 @@ vi:
       title: "Chỉnh sửa"
       btn_edit_user: "Chỉnh sửa"
     create:
+      notify_email_active_account: "Xin vui lòng kiểm tra
+        tài khoản email để kích hoạt tài khoản của bạn ."
       create_user_success: "Chào mừng đến với ứng dụng"
     show:
       user_not_found: "Người dùng không tồn tại!"
@@ -66,6 +75,15 @@ vi:
     destroy:
       destroy_success: "Xóa thành công !"
       destroy_fail: "Xóa thất bại !"
+
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản người dùng"
+      name_app: "Sample App"
+      greeting: "Xin chào "
+      desc: "Chào mừng bạn đến với Sample App!
+        Click vào liên kết bên dưới để kích hoạt tài khoản của bạn"
+      title_link: "Kích hoạt tài khoản"
 
   static_pages:
     home:
