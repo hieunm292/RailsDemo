@@ -83,6 +83,9 @@ vi:
     micropost_form:
       create_micropost: "Soạn 1 bài viết mới ..."
       post: "Đăng"
+    stats:
+      following: "Đang theo dõi"
+      follower: "Người theo dõi"
 
   account_activations:
     edit:
@@ -90,6 +93,8 @@ vi:
       active_account_fail: "Liên kết kích hoạt không hợp lệ !"
 
   users:
+    show_follow:
+      view_my_profile: "Xem trang cá nhân của tôi"
     form:
       name: "Tên"
       email: "Email"
@@ -119,6 +124,22 @@ vi:
     destroy:
       destroy_success: "Xóa thành công !"
       destroy_fail: "Xóa thất bại !"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Không theo dõi"
+    following:
+      title_following: "Bị theo dõi"
+      title_followers: "Đang theo dõi"
+
+  relationships:
+    create:
+      create_fololow_success: "Chúc mừng, theo dõi thành công!"
+      user_not_found: "Không tìm thấy người dùng !"
+    destroy:
+      destroy_fololow_success: "Không theo dõi thành công!"
+      user_relationship_not_found: "Xin lỗi, mối quan hệ không được tìm thấy !"
+
 
   user_mailer:
     account_activation:

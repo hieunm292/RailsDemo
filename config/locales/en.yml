@@ -83,6 +83,9 @@ en:
     micropost_form:
       create_micropost: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "Following"
+      follower: "Followers"
 
   account_activations:
     edit:
@@ -90,6 +93,8 @@ en:
       active_account_fail: "Invalid activation link !"
 
   users:
+    show_follow:
+      view_my_profile: "View my profile"
     form:
       name: "Name"
       email: "Email"
@@ -119,6 +124,25 @@ en:
     destroy:
       destroy_success: "Destroy_success !"
       destroy_fail: "Destroy_fail !"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      microposts: "Total"
+
+    following:
+      title_following: "Following"
+      title_followers: "Followers"
+
+  relationships:
+    create:
+      create_fololow_success: "Congragulation, following success !"
+      user_not_found: "User not found !"
+    destroy:
+      destroy_fololow_success: "Congragulation, unfollow success !"
+      user_relationship_not_found: "Sorry, the relationship not found !"
+
 
   user_mailer:
     account_activation:

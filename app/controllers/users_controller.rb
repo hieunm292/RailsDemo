@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
-  before_action :load_user, only: [:show, :edit, :update, :destroy]
+  before_action :load_user, only: [:show, :edit, :update, :destroy, :following, :followers]
   before_action :correct_user, only: [:edit, :update]
 
   def index
@@ -46,6 +46,22 @@ class UsersController < ApplicationController
       flash[:danger] = t ".destroy_fail"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = t ".title_following"
+    @users = Kaminari.paginate_array(@user.following)
+                     .page(params[:page])
+                     .per(Settings.user.folow_per_page)
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".title_followers"
+    @users = Kaminari.paginate_array(@user.followers)
+                     .page(params[:page])
+                     .per(Settings.user.folow_per_page)
+    render :show_follow
   end
 
   private
