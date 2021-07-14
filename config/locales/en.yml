@@ -1,4 +1,8 @@
 en:
+  javascript:
+    micropost_image:
+      micropost_image_max_size: "Maximum file size is 5MB. Please choose a smaller file."
+
   layouts:
     application:
       title_global: "Ruby on Rails Tutorial Sample App"
@@ -20,6 +24,17 @@ en:
       product: "Ruby on Rails"
       creator: "Nguyễn Minh Hiếu"
 
+  microposts:
+    micropost:
+      delete: "Delete"
+      confirm_delete: "Do you want do delete this post ?"
+    create:
+      micropost_create_success: "Congragulation, micropost created success !"
+      create_micropost_failed: "Sorry, micropost created fail fail !"
+    destroy:
+      micropost_delete_success: "Congragulation, micropost deleted success !"
+      micropost_delete_fail: "Sorry, micropost deleted fail fail !"
+
   password_resets:
     edit:
       title: "Reset Password"
@@ -39,8 +54,8 @@ en:
       error_password_empty: "Password can't be empty !"
       reset_password_success: "Congragulation, reset your password success !"
       password_expired: "Password reset has expired !"
-      user_not_found: "Người dùng không tìm thấy ."
-      reset_password_error: "Lỗi, mật khẩu đã được đặt lại trước đó"
+      user_not_found: "User not found ."
+      reset_password_error: "Error, the password has changed before ."
 
   sessions:
     new:
@@ -62,6 +77,12 @@ en:
   shared:
     errors_message:
       information_error: "The form containers %{count_error} error."
+    user_info:
+      my_profile: "View my profile"
+      microposts: " micropost"
+    micropost_form:
+      create_micropost: "Compose new micropost..."
+      post: "Post"
 
   account_activations:
     edit:
