@@ -12,3 +12,4 @@ user:
   micropost_per_page: 5
   image_max_size: 5
   validate_content: 140
+  folow_per_page: 10
